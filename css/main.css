@@ -25,6 +25,7 @@ body{margin: 0;}
 }
 
 a{text-decoration: none;}
+li{list-style: none;}
 
 /* FINE RESET ************************************/
 
@@ -77,8 +78,8 @@ nav{
 
 .card{
     width: calc(100%/3 - 15px);
-    height: 450px;
-    margin-bottom: 40px;
+    height: 500px;
+    margin-bottom: 50px;
 }
 
 #topLeft{
@@ -145,6 +146,35 @@ nav{
     background-color: black;
     color: red;
 }
+
+.whiteBox{
+    width: 329.9px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    bottom:0;
+}
+
+.whiteBox > ul{
+    margin: 2px 0 0 0;
+    padding-left: 0;
+}
+
+.whiteBox ul li:nth-child(2){
+    font-weight: bold;
+}
+
+ul li:nth-child(3){
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#liCustom{
+    display: inline-block;
+    text-decoration: line-through;
+}
+
 
 
 
