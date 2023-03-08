@@ -129,8 +129,31 @@ nav{
     background-image: url(../img/6b.webp);
 }
 
+.favourite{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    font-size: 25px;
+    right: 0;
+    top: 10px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.favourite:hover{
+    background-color: black;
+    color: red;
+}
 
 
 
 
 
+/*************** INIZIO FOOTER ***********************/
+
+footer{
+    width: 100vw;
+    height: 85px;
+    background-color: #1a1a1a;
+}
