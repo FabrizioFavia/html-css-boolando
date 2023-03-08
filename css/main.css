@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    min-height: 50px;
+    background-color: #ff6900;
+}
