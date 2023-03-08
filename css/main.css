@@ -18,6 +18,12 @@ body{margin: 0;}
 .spaceBtw {justify-content: space-between;}
 .wrap{flex-wrap: wrap;}
 
+.bckProperty{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 a{text-decoration: none;}
 
 /* FINE RESET ************************************/
@@ -29,6 +35,7 @@ header{
     width: 100vw;
     min-height: 50px;
     background-color: #ff6900;
+    z-index: 999;
 }
 
 nav{
@@ -71,27 +78,55 @@ nav{
 .card{
     width: calc(100%/3 - 15px);
     height: 450px;
-    border: 1px solid red;
     margin-bottom: 40px;
 }
 
 #topLeft{
-    background-image: url();
+    background-image: url(../img/1.webp);
 }
+
+#topLeft:hover{
+    background-image: url(../img/1b.webp);
+}
+
 #topRight{
-    background-image: url();
+    background-image: url(../img/2.webp);
 }
+
+#topRight:hover{
+    background-image: url(../img/2b.webp);
+}
+
 #topMid{
-    background-image: url();
+    background-image: url(../img/3.webp);
 }
+
+#topMid:hover{
+    background-image: url(../img/3b.webp);
+}
+
 #bottomLeft{
-    background-image: url();
+    background-image: url(../img/4.webp);
 }
+
+#bottomLeft:hover{
+    background-image: url(../img/4b.webp);
+}
+
 #bottomRight{
-    background-image: url();
+    background-image: url(../img/5.webp);
 }
+
+#bottomRight:hover{
+    background-image: url(../img/5b.webp);
+}
+
 #bottomMid{
-    background-image: url();
+    background-image: url(../img/6.webp);
+}
+
+#bottomMid:hover{
+    background-image: url(../img/6b.webp);
 }
 
 
