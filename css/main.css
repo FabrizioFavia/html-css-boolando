@@ -27,6 +27,13 @@ body{margin: 0;}
 a{text-decoration: none;}
 li{list-style: none;}
 
+.dimensionTag{
+    color: white;
+    font-weight: 600;
+    padding: 2px 5px;
+    font-size: 14px;
+}
+
 /* FINE RESET ************************************/
 
 
@@ -79,7 +86,7 @@ nav{
 .card{
     width: calc(100%/3 - 15px);
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 #topLeft{
@@ -147,6 +154,24 @@ nav{
     color: red;
 }
 
+.greenTag{
+    background-color: green;
+    left: 50px;
+    bottom: 80px;
+}
+
+.customGreenTag{
+    background-color: green;
+    left: 0px;
+    bottom: 80px;
+}
+
+.redTag{
+    background-color: red;
+    left: 0;
+    bottom: 80px;
+}
+
 .whiteBox{
     width: 329.9px;
     height: 40px;
@@ -174,6 +199,8 @@ ul li:nth-child(3){
     display: inline-block;
     text-decoration: line-through;
 }
+
+
 
 
 
